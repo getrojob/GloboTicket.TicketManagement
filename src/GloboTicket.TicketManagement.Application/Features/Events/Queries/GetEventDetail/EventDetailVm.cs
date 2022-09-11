@@ -13,6 +13,5 @@ namespace GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEv
         public string ImageUrl { get; set; }
         public Guid CategoryId { get; set; }
         public CategoryDto Category { get; set; }
-
     }
 }
