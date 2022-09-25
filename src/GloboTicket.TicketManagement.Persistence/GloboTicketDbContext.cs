@@ -2,16 +2,15 @@
 using GloboTicket.TicketManagement.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace GloboTicket.TicketManagement.Persistence
 {
     public class GloboTicketDbContext : DbContext
     {
-        public GloboTicketDbContext(DbContextOptions<GloboTicketDbContext> options) : base(options)
+        public GloboTicketDbContext(DbContextOptions<GloboTicketDbContext> options)
+           : base(options)
         {
         }
 
